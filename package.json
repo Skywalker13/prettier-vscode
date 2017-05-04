@@ -3,13 +3,13 @@
   "displayName": "Prettier - JavaScript formatter",
   "description": "VS Code plugin for Skywalker13/prettier-space-parenthesis",
   "version": "0.17.100",
-  "publisher": "esbenp",
+  "publisher": "schroeter",
   "author": "Esben Petersen <@esbenp>",
   "galleryBanner": {
     "color": "#ffe04b",
     "theme": "light"
   },
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode-space-parenthesis",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=schroeter.prettier-vscode-space-parenthesis",
   "repository": {
     "type": "git",
     "url": "https://github.com/Skywalker13/prettier-vscode-space-parenthesis.git"
