@@ -12,7 +12,7 @@ import { PrettierVSCodeConfig } from './types.d';
 const VALID_LANG: DocumentSelector = ['javascript', 'javascriptreact', 'jsx'];
 
 function checkConfig() {
-    const config: PrettierVSCodeConfig = workspace.getConfiguration('prettier') as any;
+    const config: PrettierVSCodeConfig = workspace.getConfiguration('prettier-space-parenthesis') as any;
     if (config.useFlowParser) {
         window.showWarningMessage("Option 'useFlowParser' has been deprecated. Use 'parser: \"flow\"' instead.");
     }

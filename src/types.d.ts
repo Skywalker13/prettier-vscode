@@ -14,6 +14,7 @@ export interface PrettierConfig {
     parser?: ParserOption;
     semi?: boolean;
     useTabs?: boolean;
+    spaceParenthesis?: boolean;
 }
 /**
  * prettier-vscode specific configuration

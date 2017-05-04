@@ -29,7 +29,7 @@ type ShowAction = "Show";
  * @returns {string} formatted text 
  */
 function format(text: string, path: string): string {
-    const config: PrettierVSCodeConfig = workspace.getConfiguration('prettier') as any;
+    const config: PrettierVSCodeConfig = workspace.getConfiguration('prettier-space-parenthesis') as any;
     /*
     handle deprecated parser option
     */
@@ -56,6 +56,7 @@ function format(text: string, path: string): string {
         parser: parser,
         semi: config.semi,
         useTabs: config.useTabs,
+        spaceParenthesis: config.spaceParenthesis,
     };
     if (config.eslintIntegration) {
         const prettierEslint = require('prettier-eslint') as PrettierEslintFormat;
@@ -66,7 +67,7 @@ function format(text: string, path: string): string {
         });
     }
 
-    const prettier = requireLocalPkg(path, 'prettier') as Prettier;
+    const prettier = requireLocalPkg(path, 'prettier-space-parenthesis') as Prettier;
     return prettier.format(text, prettierOptions);
 }
 
