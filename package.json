@@ -1,22 +1,22 @@
 {
-  "name": "prettier-vscode",
+  "name": "prettier-vscode-space-parenthesis",
   "displayName": "Prettier - JavaScript formatter",
-  "description": "VS Code plugin for prettier/prettier",
-  "version": "0.17.1",
+  "description": "VS Code plugin for Skywalker13/prettier-space-parenthesis",
+  "version": "0.17.100",
   "publisher": "esbenp",
   "author": "Esben Petersen <@esbenp>",
   "galleryBanner": {
     "color": "#ffe04b",
     "theme": "light"
   },
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode-space-parenthesis",
   "repository": {
     "type": "git",
-    "url": "https://github.com/esbenp/prettier-vscode.git"
+    "url": "https://github.com/Skywalker13/prettier-vscode-space-parenthesis.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esbenp/prettier-vscode/issues"
+    "url": "https://github.com/Skywalker13/prettier-vscode-space-parenthesis/issues"
   },
   "engines": {
     "vscode": "^1.5.0"
