@@ -2,7 +2,7 @@
   "name": "prettier-vscode-space-parenthesis",
   "displayName": "Prettier - JavaScript formatter",
   "description": "Fork of prettier-vscode: VS Code plugin for Skywalker13/prettier-space-parenthesis",
-  "version": "0.17.100",
+  "version": "0.17.101",
   "publisher": "schroeter",
   "author": "Esben Petersen <@esbenp>",
   "galleryBanner": {
